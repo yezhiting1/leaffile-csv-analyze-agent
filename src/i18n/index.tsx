@@ -15,10 +15,12 @@ interface I18nContextValue {
 
 const I18nContext = createContext<I18nContextValue>(null!);
 
+// 【修改：无缓存时默认中文，不再读取浏览器语言】
 function getInitialLang(): Lang {
   const saved = localStorage.getItem("lang") as Lang | null;
+  // 如果本地存过语言，优先读取；没存过直接默认中文
   if (saved && (saved === "en" || saved === "zh")) return saved;
-  return navigator.language.startsWith("zh") ? "zh" : "en";
+  return "zh";
 }
 
 export function I18nProvider({ children }: { children: ReactNode }) {
