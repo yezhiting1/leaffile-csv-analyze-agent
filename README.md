@@ -4,7 +4,6 @@
 
 **Framework：** Claude Agent SDK · **Category：** File Processing <!-- TODO: confirm --> · **Language：** TypeScript
 
-[![Deploy to EdgeOne Makers](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=csv-analyze-agent)
 
 
 
