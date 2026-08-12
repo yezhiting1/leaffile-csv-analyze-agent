@@ -1,4 +1,4 @@
-# CSV Analyze
+# CSV Analyze————2026.8.12-B1
 
 跑在 EdgeOne Makers 上的双 Agent CSV 分析应用：上传 CSV，生成 Vega-Lite 图表与文字洞察，全程通过 SSE 推送结果。底层基于 Claude Agent SDK。
 
