@@ -6,7 +6,7 @@
 
 [![Deploy to EdgeOne Makers](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=csv-analyze-agent)
 
-<!-- ![preview](./assets/preview.png)  TODO: confirm -->
+
 
 ## 概述
 
@@ -104,11 +104,7 @@ csv-analyze/
 
 沙箱凭证由运行时自动注入，无需本地配置。`edgeone.json` 中 `agents.timeout` 与 `agents.sandbox.timeout` 均为 300 秒。
 
-## 资源
 
-- [EdgeOne Makers Agents 文档](https://cloud.tencent.com/document/product/1552/132759)
-- [EdgeOne Makers 快速开始](https://cloud.tencent.com/document/product/1552/132786)
-- [Makers Models](https://cloud.tencent.com/document/product/1552/132748)
 
 ## License
 
